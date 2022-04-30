@@ -1,4 +1,4 @@
-const { TestWatcher } = require('jest');
+const TestWatcher = require('jest');
 const Employee = require('../lib/Employee');
 
 describe('Employee', () => {
