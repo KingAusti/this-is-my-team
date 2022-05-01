@@ -82,7 +82,7 @@ function buildTeam() {
     // writes html
     fs.writeFileSync(`${process.cwd()}/dist/index.html`, generatePage(officeTeam))
     // copies css
-    generateSite()
+    //generateSite()
 }
 
 init()

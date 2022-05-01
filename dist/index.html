@@ -3,37 +3,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <link rel="stylesheet" 
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+          crossorigin="anonymous">    
     <title>My Team</title>
 </head>
 <body>
-    <main>
-        
-    <section class='my-3 id='about'>
-        <h2 class="text-dark bg-primary p-2 display-inline-block">Manager</h2>
-        <p>Glenda</p>
-        <p>3</p>
-        <p>glendathegoodwitch@earthlink.net</p>
-        <p>6969</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 jumbotron mb-3" id="title">
+                <h1 class="text-center">The Team</h1>
+            </div>
+        </div>
+    </div>
+    <main class="container">        
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                
+    <section class="card">
+        <div class="card-header">
+            <h2 class="text-dark bg-primary p-2 display-inline-block">Manager</h2>
+            <h3>Glenda Goodwitch</h3>
+        </div>
+        <div class="card-body">
+            <ul class="list-group">
+                <li>ID: 169</li>
+                <li>Email: <a href="mailto:glendagoodwitch@sbcglobal.net">glendagoodwitch@sbcglobal.net</a></li>
+                <li>Office Number: 8309</li>
+            </ul>
+        </div>        
     </section>
     
-    <section class='my-3 id='about'>
-        <h2 class="text-dark bg-primary p-2 display-inline-block">Engineer</h2>
-        <p>Nguyen</p>
-        <p>1</p>
-        <p>09342809@gmail.com</p>
-        <p>nguyenftw</p>
+    <section class="card">
+        <div class="card-header">
+            <h2 class="text-dark bg-primary p-2 display-inline-block">Engineer</h2>
+            <h3>Nguyen Giang</h3>
+        </div>
+        <div class="card-body">
+            <ul class="list-group">
+                <li>ID: 007</li>
+                <li>Email: <a href="mailto:462789@gmail.com">462789@gmail.com</a></li>
+                <li>GitHub: <a href="https://github.com/nguyenftw"target="_blank">nguyenftw</a></li>
+            </ul>
+        </div>        
     </section>
     
-    <section class='my-3 id='about'>
-        <h2 class="text-dark bg-primary p-2 display-inline-block">Intern</h2>
-        <p>Bobby</p>
-        <p>ID: 0</p>
-        <p>bobby@unpaidintern.com</p>
-        <p>HaVaRdMeDiCaLsChOoL</p>
+    <section class="card">
+        <div class="card-header">
+            <h2 class="text-dark bg-primary p-2 display-inline-block">Intern</h2>
+            <h3>Bobby</h3>
+        </div>
+        <div class="card-body">
+            <ul class="list-group">
+                <li>ID: 37489</li>
+                <li>Email: <a href="mailto:bobby@theintern.com">bobby@theintern.com</a></li>
+                <li>School: Harvard Medical</li>
+            </ul>
+        </div>        
     </section>
     
+            </div>
+        </div>        
     </main>
 </body>
 </html>
