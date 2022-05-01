@@ -40,6 +40,7 @@ This is an application built primarily in node.js that allows you to quickly gen
 
 [Full Video](https://drive.google.com/file/d/1PpiVYWcHlErSqzFKKSxIBbTbJwe2uoU-/view)
 
+### Completed HTML Output
 ![Image of HTML Output](./public/img/profile-example.png)
 
 
